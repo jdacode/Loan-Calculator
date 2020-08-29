@@ -26,17 +26,15 @@ Task manager web app was specifically designed to test web broser' Local Storage
 ## Formulas
 
 
-    ```
-    resultBoxMonthlyPayment = [(inputBoxBorrow*[(1 + (intputBoxInterestRate / 100 / 12)) ^ intputBoxYears * 12]*(intputBoxInterestRate / 100 / 12))/([(1 + (intputBoxInterestRate / 100 / 12)) ^ [intputBoxYears * 12]-1)]
-    ```
+> resultBoxMonthlyPayment = [(inputBoxBorrow*[(1 + (intputBoxInterestRate / 100 / 12)) ^ intputBoxYears * 12]*(intputBoxInterestRate / 100 / 12))/([(1 + (intputBoxInterestRate / 100 / 12)) ^ [intputBoxYears * 12]-1)]
+      
+<br><br>
+
+> resultBoxTotalLoanPayment = [(inputBoxBorrow*[(1 + (intputBoxInterestRate / 100 / 12)) ^ intputBoxYears * 12]*(intputBoxInterestRate / 100 / 12))/(x-1)] * (intputBoxYears * 12)
+
+<br><br>    
     
-    ```
-    resultBoxTotalLoanPayment = [(inputBoxBorrow*[(1 + (intputBoxInterestRate / 100 / 12)) ^ intputBoxYears * 12]*(intputBoxInterestRate / 100 / 12))/(x-1)] * (intputBoxYears * 12)
-    ```
-    
-   ```
-   resultBoxTotalInterest  = ([(inputBoxBorrow*[(1 + (intputBoxInterestRate / 100 / 12)) ^ [intputBoxYears * 12]*(intputBoxInterestRate / 100 / 12))/([(1 + (intputBoxInterestRate / 100 / 12)) ^ [intputBoxYears * 12]-1)] * [intputBoxYears * 12]) - inputBoxBorrow
-   ```
+> resultBoxTotalInterest  = ([(inputBoxBorrow*[(1 + (intputBoxInterestRate / 100 / 12)) ^ [intputBoxYears * 12]*(intputBoxInterestRate / 100 / 12))/([(1 + (intputBoxInterestRate / 100 / 12)) ^ [intputBoxYears * 12]-1)] * [intputBoxYears * 12]) - inputBoxBorrow
 
 <br><br>
 ## Screenshot
