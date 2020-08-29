@@ -1,4 +1,4 @@
-# Task Manager - JavaScript
+# Loan Calculator - JavaScript
 
 <p align="center">
   <img src="/img/octocat.jpeg" alt="octocat" width="150" height="150"/>
