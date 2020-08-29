@@ -14,7 +14,8 @@
 <br><br>
 ## Overview
 
-Task manager web app was specifically designed to test web broser' Local Storage which functions as a permanent storage for users tasks. Some of the features used on the project were:
+Loan Calculator web app.
+Some of the features used on the project were:
 
 - **JavaScript**.
 - **HTML**.
